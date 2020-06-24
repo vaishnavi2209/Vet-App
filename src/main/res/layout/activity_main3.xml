@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@drawable/button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity3">
+
+    <!-- HELLO KITTY !! -->
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="126dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:text="@string/done"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catmed" />
+
+    <TextView
+        android:id="@+id/hello_kitty"
+        android:layout_width="198dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/hello_kitty"
+        android:textAppearance="@style/hello_kitty"
+        app:layout_constraintBottom_toTopOf="@+id/catname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/catage"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="352dp"
+        android:background="@drawable/rectangle_3"
+        android:hint="   Your Cat's age"
+        android:textColor="@color/text"
+        app:layout_constraintBottom_toTopOf="@+id/catmed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/catmed"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:background="@drawable/rectangle_3"
+        android:hint="   Medicine given ?"
+        android:textColor="@color/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/catname"
+        style="@style/your_dog_s_."
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:background="@drawable/rectangle_3"
+        android:fontfamily="bold"
+        android:hint="   Your Cat's name"
+        android:textColor="@color/text"
+        app:layout_constraintBottom_toTopOf="@+id/catage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

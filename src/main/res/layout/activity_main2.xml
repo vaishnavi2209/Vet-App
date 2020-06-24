@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:clipToOutline="true" >
+
+    <TextView
+        android:id="@+id/which_pet_d"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="116dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/which_pet_d"
+        android:textAppearance="@style/which_pet_d" />
+
+    <ImageButton
+        android:id="@+id/dogbtn"
+        android:layout_width="115dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="419dp"
+        android:elevation="4dp"
+        app:srcCompat="@drawable/dog"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/catbtn"
+        style="@style/Platform.MaterialComponents.Light"
+        android:layout_width="113dp"
+        android:layout_height="112dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="419dp"
+        android:elevation="4dp"
+        android:shape="rectangle"
+
+        app:srcCompat="@drawable/cat"
+        tools:srcCompat="@drawable/cat" />
+
+    <!-- Consult a vet ? -->
+    <TextView
+        android:id="@+id/consult_a_v"
+        android:layout_width="174dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="413dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/consult_a_v"
+        android:textAppearance="@style/consult_a_v" />
+
+    <Button
+        android:id="@+id/yesbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/button"
+        android:text="YES"
+        android:textColor="#FFFFFF"
+        android:textsize="26sp" />
+
+    <TextView
+        android:id="@+id/our_perfect"
+        android:layout_width="273dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="662dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/our_perfect"
+        android:textAppearance="@style/our_perfect" />
+
+
+</RelativeLayout>
+

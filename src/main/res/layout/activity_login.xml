@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ui.login.LoginActivity">
+
+
+    <!-- HELLO BUDDY !! -->
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="144dp"
+        android:layout_height="37dp"
+        android:layout_gravity="start"
+        android:background="@drawable/button"
+        android:enabled="false"
+        android:text="Done"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="608dp" />
+
+    <TextView
+        android:id="@+id/hello_buddy"
+        android:layout_width="261dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/hello_buddy"
+        android:textAppearance="@style/hello_buddy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/dogname"
+        style="@style/your_dog_s_."
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:background="@drawable/rectangle_3"
+        android:fontfamily="bold"
+        android:hint="   Your dog's name"
+        android:textColor="@color/text"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText2"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:background="@drawable/rectangle_3"
+        android:hint="   Your dog's age"
+        android:textColor="@color/text"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText2"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:background="@drawable/rectangle_3"
+        android:hint="   Medicine given ?"
+        android:textColor="@color/text"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

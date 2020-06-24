@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AKD</string>
+    <string name="we_rise_by_">WE RISE BY LIFTING OTHERS</string>
+    <string name="start">START</string>
+    <string name="which_pet_d">Which pet do you have ?</string>
+    <!-- strings.xml -->
+    <string name="consult_a_v">
+
+Consult a vet ?
+</string>
+
+    <string name="our_perfect">
+
+" Our perfect companions never have fewer than four feet."
+</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="done">"Done"</string>
+    <string name="hello_buddy">HELLO BUDDY !!</string>
+    <string name="hello_kitty">
+
+HELLO KITTY !!
+</string>
+
+
+</resources>
